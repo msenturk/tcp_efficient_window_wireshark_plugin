@@ -2,14 +2,6 @@
  TCP EFFECTIVE WINDOW POST-DISSECTOR (Wireshark Lua Plugin)
 ===============================================================
 
-File: tcp_efficient_window.lua
-Author: Cace Cacem (2025)
-Language: Lua (Wireshark 3.x / 4.x compatible)
-
----------------------------------------------------------------
- WHAT IT DOES
----------------------------------------------------------------
-
 This plugin calculates an estimated TCP "Effective Window" for
 each packet in a capture. The Effective Window represents how
 much data the sender can still transmit, considering both the
